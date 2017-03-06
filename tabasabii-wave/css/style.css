@@ -1,0 +1,110 @@
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.name {
+  background: url(http://i.imgur.com/oT5imG6.jpg) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+
+}
+
+.main {
+  position: relative;
+  top: 210px;
+  text-align: center;
+}
+
+
+.main h1 {
+  color: #fff;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 90px;
+ transform: rotate(90deg);
+}
+
+.btn-main {
+  
+  color: #fff;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  margin-bottom: 50px;
+}
+
+
+.qrcode img{
+  height: 100px;
+}
+
+.btn-main{
+  animation-duration: 10s;
+  animation-name: gg;
+  animation-iteration-count: 1.71;
+  animation-direction: alternate;
+  
+}
+
+  .btn-default {
+  border: 1px solid #333;
+  color: #000;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;      
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Biryani', sans-serif;
+  text-align: center;
+}
+
+.col : hover {
+size : 120%;
+}
+
+.supporting img {
+  height: 80px;
+}
+  
+  .supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+
+  } 
+@keyframes gg {
+  from{
+    transform: skew(20deg, 10deg);
+   
+    }
+  to{
+    transform: skew(-20deg, -10deg);
+    
+  }
